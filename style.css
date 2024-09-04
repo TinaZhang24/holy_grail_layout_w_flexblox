@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    border:solid;
+  }
+  
+  .header{
+    flex: 0 0 50px;
+    border:solid;
+  }
+  
+  .content{
+    flex: 1 1 auto;
+    
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .content .main{
+    flex: 1 1 auto;
+    overflow: auto;
+    border:solid;
+  }
+  
+  .content .leftside{
+    order: -1;
+    flex: 0 0 100px;
+    overflow: auto;
+    border:solid;
+  }
+  
+  .content-body .rightside{
+    flex: 0 0 100px;
+    overflow: auto;
+    border:solid;
+  }
+  
+  .footer{
+    flex: 0 0 50px;
+    border:solid;
+  }
